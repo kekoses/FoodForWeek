@@ -52,6 +52,17 @@ namespace FoodForWeek
             }).AddEntityFrameworkStores<AppIdentityContext>()
               .AddDefaultTokenProviders();
 
+            services.AddHsts(options=>
+            {
+                options.Preload=false;
+                options.IncludeSubDomains=true;
+                options.MaxAge=TimeSpan.FromDays(2);
+            });
+            services.AddHttpsRedirection(options=>
+            {
+                options.HttpsPort=5001;
+                options.RedirectStatusCode=(int)HttpStatusCode.PermanentRedirect;
+            });
             services.AddAutoMapper(config =>
             {
                 config.AddProfile<ApplicationMapper>();

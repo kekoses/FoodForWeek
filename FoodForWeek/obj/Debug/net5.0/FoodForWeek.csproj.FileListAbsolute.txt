@@ -76,8 +76,6 @@ C:\Users\KP\source\repos\FoodForWeek\FoodForWeek\obj\Debug\net5.0\Razor\Views\Ac
 C:\Users\KP\source\repos\FoodForWeek\FoodForWeek\obj\Debug\net5.0\Razor\Views\Account\Index.cshtml.g.cs
 C:\Users\KP\source\repos\FoodForWeek\FoodForWeek\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
 C:\Users\KP\source\repos\FoodForWeek\FoodForWeek\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\KP\source\repos\FoodForWeek\FoodForWeek\obj\Debug\net5.0\Razor\Views\Shared\Authenticated.cshtml.g.cs
-C:\Users\KP\source\repos\FoodForWeek\FoodForWeek\obj\Debug\net5.0\Razor\Views\Shared\NotAuthenticated.cshtml.g.cs
 C:\Users\KP\source\repos\FoodForWeek\FoodForWeek\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\KP\source\repos\FoodForWeek\FoodForWeek\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\KP\source\repos\FoodForWeek\FoodForWeek\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
@@ -89,3 +87,4 @@ C:\Users\KP\source\repos\FoodForWeek\FoodForWeek\obj\Debug\net5.0\FoodForWeek.dl
 C:\Users\KP\source\repos\FoodForWeek\FoodForWeek\obj\Debug\net5.0\ref\FoodForWeek.dll
 C:\Users\KP\source\repos\FoodForWeek\FoodForWeek\obj\Debug\net5.0\FoodForWeek.pdb
 C:\Users\KP\source\repos\FoodForWeek\FoodForWeek\obj\Debug\net5.0\FoodForWeek.genruntimeconfig.cache
+C:\Users\KP\source\repos\FoodForWeek\FoodForWeek\obj\Debug\net5.0\Razor\Views\Account\Components\Header\Default.cshtml.g.cs

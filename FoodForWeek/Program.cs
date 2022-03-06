@@ -26,6 +26,7 @@ namespace FoodForWeek
                     {
                         options.Limits.MaxConcurrentConnections=100;
                         options.Limits.Http2.MaxStreamsPerConnection=4;
+                        options.ListenLocalhost(5000);
                         options.ListenLocalhost(5001, options=>
                         {
                             options.UseHttps();;
