@@ -12,8 +12,10 @@ using FoodForWeekApp.DAL.AppData.Repositories.Interfaces;
 using FoodForWeekApp.DAL.AppData.Repositories.Implementations;
 using FoodForWeekApp.DAL.Identity;
 using FoodForWeekApp.DAL.Identity.Models;
-using FoodForWeekApp.DAL;
+using DAL=FoodForWeekApp.DAL;
 using FoodForWeek.Filters;
+using System.Net;
+using System;
 
 namespace FoodForWeek
 {
@@ -37,7 +39,7 @@ namespace FoodForWeek
             {
                 options.UseSqlServer(Configuration.GetConnectionString("Identity"));
             });
-            services.AddDbContext<AppContext>(options =>
+            services.AddDbContext<DAL.AppContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("Default"));
             });
