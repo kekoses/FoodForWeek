@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.Tests\\FoodForWeek.Tests.csproj": {}
+    "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.Tests\\FoodForWeek.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.Tests\\FoodForWeek.Tests.csproj": {
+    "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.Tests\\FoodForWeek.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.Tests\\FoodForWeek.Tests.csproj",
+        "projectUniqueName": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.Tests\\FoodForWeek.Tests.csproj",
         "projectName": "FoodForWeek.Tests",
-        "projectPath": "C:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.Tests\\FoodForWeek.Tests.csproj",
+        "projectPath": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.Tests\\FoodForWeek.Tests.csproj",
         "packagesPath": "C:\\Users\\KP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.Tests\\obj\\",
+        "outputPath": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

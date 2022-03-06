@@ -1,0 +1,9 @@
+﻿@model LoginViewModel
+<div class="row">
+    <div class="col-lg-3 col-sm-12">
+        @await Component.InvokeAsync("Login", Model)
+    </div>
+    <div class="col-lg-8 offset-lg-1 col-sm-12 text-center">
+        @await Component.InvokeAsync("CurrentMenu")
+    </div>
+</div>

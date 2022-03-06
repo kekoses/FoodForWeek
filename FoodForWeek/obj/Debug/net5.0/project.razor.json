@@ -13566,6 +13566,55 @@
         }
       },
       {
+        "HashCode": -389215653,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CurrentMenuViewComponentTagHelper",
+        "AssemblyName": "FoodForWeek",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:current-menu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CurrentMenuViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "CurrentMenu"
+        }
+      },
+      {
+        "HashCode": -1979964522,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__LoginViewComponentTagHelper",
+        "AssemblyName": "FoodForWeek",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:login",
+            "Attributes": [
+              {
+                "Name": "login-vm"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "login-vm",
+            "TypeName": "FoodForWeek.ViewModels.LoginViewModel",
+            "Metadata": {
+              "Common.PropertyName": "loginVM"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__LoginViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Login"
+        }
+      },
+      {
         "HashCode": 141407075,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -15619,13 +15668,28 @@
   "RootNamespace": "FoodForWeek",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek\\Views\\Shared\\NotAuthenticated.cshtml",
+      "TargetPath": "Views\\Shared\\NotAuthenticated.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek\\Views\\Account\\Index.cshtml",
+      "TargetPath": "Views\\Account\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek\\Views\\Account\\Register.cshtml",
+      "TargetPath": "Views\\Account\\Register.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15639,8 +15703,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek\\Views\\Account\\Components\\Login\\Default.cshtml",
+      "TargetPath": "Views\\Account\\Components\\Login\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek\\Views\\Account\\Components\\CurrentMenu\\Default.cshtml",
+      "TargetPath": "Views\\Account\\Components\\CurrentMenu\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek\\Views\\Shared\\Authenticated.cshtml",
+      "TargetPath": "Views\\Shared\\Authenticated.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -5,4 +5,21 @@
     <UserSecretsId>c91242b3-2300-4cd3-9a6b-64565b325217</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.14">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.14" />
+    <PackageReference Include="Microsoft.IdentityModel.Logging" Version="6.15.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.14"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FoodForWeek.DAL\FoodForWeek.DAL.csproj" />
+    <ProjectReference Include="..\FoodForWeek.BL\FoodForWeek.BL.csproj" />
+  </ItemGroup>
 </Project>

@@ -1,0 +1,15 @@
+C:\Users\KP\source\repos\FoodForWeek\FoodForWeek.DAL\bin\Debug\net5.0\FoodForWeek.DAL.deps.json
+C:\Users\KP\source\repos\FoodForWeek\FoodForWeek.DAL\bin\Debug\net5.0\FoodForWeek.DAL.runtimeconfig.json
+C:\Users\KP\source\repos\FoodForWeek\FoodForWeek.DAL\bin\Debug\net5.0\FoodForWeek.DAL.runtimeconfig.dev.json
+C:\Users\KP\source\repos\FoodForWeek\FoodForWeek.DAL\bin\Debug\net5.0\FoodForWeek.DAL.dll
+C:\Users\KP\source\repos\FoodForWeek\FoodForWeek.DAL\bin\Debug\net5.0\ref\FoodForWeek.DAL.dll
+C:\Users\KP\source\repos\FoodForWeek\FoodForWeek.DAL\bin\Debug\net5.0\FoodForWeek.DAL.pdb
+C:\Users\KP\source\repos\FoodForWeek\FoodForWeek.DAL\obj\Debug\net5.0\FoodForWeek.DAL.csproj.AssemblyReference.cache
+C:\Users\KP\source\repos\FoodForWeek\FoodForWeek.DAL\obj\Debug\net5.0\FoodForWeek.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KP\source\repos\FoodForWeek\FoodForWeek.DAL\obj\Debug\net5.0\FoodForWeek.DAL.AssemblyInfoInputs.cache
+C:\Users\KP\source\repos\FoodForWeek\FoodForWeek.DAL\obj\Debug\net5.0\FoodForWeek.DAL.AssemblyInfo.cs
+C:\Users\KP\source\repos\FoodForWeek\FoodForWeek.DAL\obj\Debug\net5.0\FoodForWeek.DAL.csproj.CoreCompileInputs.cache
+C:\Users\KP\source\repos\FoodForWeek\FoodForWeek.DAL\obj\Debug\net5.0\FoodForWeek.DAL.dll
+C:\Users\KP\source\repos\FoodForWeek\FoodForWeek.DAL\obj\Debug\net5.0\ref\FoodForWeek.DAL.dll
+C:\Users\KP\source\repos\FoodForWeek\FoodForWeek.DAL\obj\Debug\net5.0\FoodForWeek.DAL.pdb
+C:\Users\KP\source\repos\FoodForWeek\FoodForWeek.DAL\obj\Debug\net5.0\FoodForWeek.DAL.genruntimeconfig.cache

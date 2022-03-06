@@ -1,0 +1,39 @@
+﻿@model RegisterViewModel
+<form class="login p-2" method="post" asp-action="Register" asp-controller="Account">
+    <h2 class="text-lg-start text-center">Login form</h2>
+    <div class="form-group my-2">
+        <label asp-for="RegisteringUser.UserName">Compose an username</label>
+        <input class="form-control" type="text" asp-for="RegisteringUser.UserName" placeholder="kekoses"/>
+        <span asp-validation-for="RegisteringUser.UserName" class="text-danger"></span>
+    </div>
+    <div class="form-group my-2">
+        <label asp-for="RegisteringUser.Password">Compose your own password</label>
+        <input class="form-control" type="password" asp-for="RegisteringUser.Password" />
+        <span asp-validation-for="RegisteringUser.Password" class="text-danger"></span>
+    </div>
+    <div class="form-group my-2">
+        <label asp-for="RegisteringUser.ConfirmPassword">Write your password again</label>
+        <input class="form-control" type="password" asp-for="RegisteringUser.ConfirmPassword" />
+        <span asp-validation-for="RegisteringUser.ConfirmPassword" class="text-danger"></span>
+    </div>
+    <div class="form-group my-2">
+        <label asp-for="RegisteringUser.Email">Write your email</label>
+        <input class="form-control" type="email" asp-for="RegisteringUser.Email" placeholder="example@com.ru" />
+        <span asp-validation-for="RegisteringUser.Email" class="text-danger"></span>
+    </div>
+    <div class="form-group my-2">
+        <label asp-for="RegisteringUser.FirstName">Write your first name</label>
+        <input class="form-control" type="text" asp-for="RegisteringUser.FirstName" />
+        <span asp-validation-for="RegisteringUser.FirstName" class="text-danger"></span>
+    </div>
+    <div class="form-group my-2">
+        <label asp-for="RegisteringUser.LastName">Write your last name</label>
+        <input class="form-control" type="text" asp-for="RegisteringUser.LastName" />
+        <span asp-validation-for="RegisteringUser.LastName" class="text-danger"></span>
+    </div>
+    <div class="form-group my-2">
+        <label asp-for="RegisteringUser.RememberMe">Remember me</label>
+        <input asp-for="RegisteringUser.RememberMe" />
+    </div>
+    <button class="btn btn-primary mt-1" type="submit">Login</button>
+</form>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OncdurN5os/b81QZPt49eeDRv1Yec9AguoDAkUzrGPKv+dgJ+B5mwkcHsmbdiWV187xc+iySucBvZ9jHCGPHlg==",
+  "dgSpecHash": "vMZ+ogW2Vn49j4nOAtqxuTf3SjgtF0z1e5ImFgaisM9arDTl+eBIu6QSDItp3hA2/E/djW/a6GjM6u47Lm2sTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.Tests\\FoodForWeek.Tests.csproj",
+  "projectFilePath": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.Tests\\FoodForWeek.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KP\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\KP\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
