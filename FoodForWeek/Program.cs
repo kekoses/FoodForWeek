@@ -21,6 +21,15 @@ namespace FoodForWeek
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    webBuilder.UseKestrel(options=>
+                    {
+                        options.Limits.MaxConcurrentConnections=100;
+                        options.Limits.Http2.MaxStreamsPerConnection=4;
+                        options.ListenLocalhost(5000, options=>
+                        {
+                            options.UseHttps();;
+                        });
+                    });
                 });
     }
 }
