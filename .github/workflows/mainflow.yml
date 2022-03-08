@@ -17,10 +17,10 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 5.0.x
+    - name: check files
+      run: ls
     - name: Restore dependencies
-      run: |
-          ls
-          dotnet restore  /FoodForWeek/FoodForWeek.sln
+      run: dotnet restore  /FoodForWeek/FoodForWeek.sln
     - name: Build
       run: dotnet build /FoodForWeek/FoodForWeek.csproj --no-restore
     - name: Test
