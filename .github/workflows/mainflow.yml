@@ -18,7 +18,7 @@ jobs:
       with:
         dotnet-version: 5.0.x
     - name: Restore dependencies
-      run: dotnet restore ./FoodForWeel
+      run: dotnet restore ./FoodForWeek
     - name: Build
       run: dotnet build ./FoodForWeek --no-restore
     - name: Test
