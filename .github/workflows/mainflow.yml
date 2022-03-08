@@ -18,8 +18,8 @@ jobs:
       with:
         dotnet-version: 5.0.x
     - name: Restore dependencies
-      run: dotnet restore ./FoodForWeek
+      run: dotnet restore ./FoodForWeek.sln
     - name: Build
-      run: dotnet build ./FoodForWeek --no-restore
+      run: dotnet build ./FoodForWeek/FoodForWeek.csproj --no-restore
     - name: Test
-      run: dotnet test ./FoorForWeek.Tests --no-build --verbosity normal
+      run: dotnet test ./FoorForWeek.Tests/FoodForWeek.Tests.csproj --no-build
