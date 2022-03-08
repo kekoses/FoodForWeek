@@ -26,12 +26,12 @@ jobs:
         uses: actions/setup-dotnet@v2.0.0
         with:
           dotnet-version: 5.0.x
+          
+      - name: Change directory
+        run: cd FoodForWeek
       
       - name: Restore dependencies
         run: dotnet restore FoodForWeek
-      
-      - name: Change directory
-        run: cd FoodForWeek
       
       - name: Build FoodForWeek solution
         run: dotnet build FoodForWeek -c Debug
