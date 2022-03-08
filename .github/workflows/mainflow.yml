@@ -24,4 +24,4 @@ jobs:
     - name: Build
       run: dotnet build FoodForWeek --no-restore
     - name: Test
-      run: dotnet test FoodForWeek.Tests --no-build
+      run: dotnet test FoodForWeek.Tests 
