@@ -28,7 +28,7 @@ jobs:
       - name: Setup .NET SDK
         uses: actions/setup-dotnet@v2.0.0
         with:
-          dotnet-version: net5.0
+          dotnet-version: 5.0.x
       
       - name: Build FoodForWeek project
         run: dotnet build FoodForWeek -c Debug
