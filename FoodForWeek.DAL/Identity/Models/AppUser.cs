@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
 
-namespace FoodForWeekApp.DAL.Identity.Models
+namespace FoodForWeek.DAL.Identity.Models
 {
     public class AppUser: IdentityUser<int>
     {

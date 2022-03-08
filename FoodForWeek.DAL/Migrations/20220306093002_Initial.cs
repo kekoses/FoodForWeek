@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace FoodForWeekApp.DAL.Migrations
+namespace FoodForWeek.DAL.Migrations
 {
     public partial class Initial : Migration
     {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5X0x9zspYlBT+oONQvCORV58hY3FhyfmywdTlqqLsOSMX7Re37BookgmeLEfHWLxu/tpdqiRlJw44IiGF6t0NQ==",
+  "dgSpecHash": "+m5utID8URI+QJ5N4ZJs6jy5n/353O7WC9Oyyp6f7cQ2up3rGYDBU7/tiap1UIHG6ehRfx9Z3NdTGVz3xUduXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.DAL\\FoodForWeek.DAL.csproj",
+  "projectFilePath": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.DAL\\FoodForWeek.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KP\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\KP\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.14\\microsoft.aspnetcore.cryptography.internal.5.0.14.nupkg.sha512",

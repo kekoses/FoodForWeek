@@ -6,10 +6,10 @@ using FoodForWeek.Library.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
-using FoodForWeekApp.DAL.AppData.Repositories.Interfaces;
-using FoodForWeekApp.DAL.Identity.Models;
+using FoodForWeek.DAL.AppData.Repositories.Interfaces;
+using FoodForWeek.DAL.Identity.Models;
 using FoodForWeek.Library.AdditionalHelpers.Extensions;
-using FoodForWeekApp.DAL.AppData.Models;
+using FoodForWeek.DAL.AppData.Models;
 
 namespace FoodForWeek.Library.Services.Implementations
 {

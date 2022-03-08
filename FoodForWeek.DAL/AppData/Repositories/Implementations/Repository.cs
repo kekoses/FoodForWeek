@@ -1,13 +1,13 @@
-﻿using FoodForWeekApp.DAL.Helpers;
-using FoodForWeekApp.DAL.AppData.Models;
-using FoodForWeekApp.DAL.AppData.Repositories.Interfaces;
+﻿using FoodForWeek.DAL.Helpers;
+using FoodForWeek.DAL.AppData.Models;
+using FoodForWeek.DAL.AppData.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace FoodForWeekApp.DAL.AppData.Repositories.Implementations
+namespace FoodForWeek.DAL.AppData.Repositories.Implementations
 {
     public abstract class Repository<T> : IRepository<T> where T: BaseType
     {

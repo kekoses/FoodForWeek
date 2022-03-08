@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace FoodForWeekApp.DAL.AppData.Models
+namespace FoodForWeek.DAL.AppData.Models
 {
     public class Menu : BaseType
     {

@@ -1,7 +1,7 @@
-﻿using FoodForWeekApp.DAL.AppData.Models;
+﻿using FoodForWeek.DAL.AppData.Models;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace FoodForWeekApp.DAL.AppData.EntityBuilders
+namespace FoodForWeek.DAL.AppData.EntityBuilders
 {
     public class UserEntityBuilder 
     {

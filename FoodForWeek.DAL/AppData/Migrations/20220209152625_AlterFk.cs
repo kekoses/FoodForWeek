@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace FoodForWeekApp.DAL.AppData.Migrations
+namespace FoodForWeek.DAL.AppData.Migrations
 {
     public partial class AlterFk : Migration
     {

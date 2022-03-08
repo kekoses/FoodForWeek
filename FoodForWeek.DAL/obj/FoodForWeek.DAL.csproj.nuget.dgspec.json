@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.DAL\\FoodForWeek.DAL.csproj": {}
+    "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.DAL\\FoodForWeek.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.DAL\\FoodForWeek.DAL.csproj": {
+    "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.DAL\\FoodForWeek.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.DAL\\FoodForWeek.DAL.csproj",
+        "projectUniqueName": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.DAL\\FoodForWeek.DAL.csproj",
         "projectName": "FoodForWeek.DAL",
-        "projectPath": "C:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.DAL\\FoodForWeek.DAL.csproj",
+        "projectPath": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.DAL\\FoodForWeek.DAL.csproj",
         "packagesPath": "C:\\Users\\KP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.DAL\\obj\\",
+        "outputPath": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

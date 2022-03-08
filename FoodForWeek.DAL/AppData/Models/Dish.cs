@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace FoodForWeekApp.DAL.AppData.Models
+namespace FoodForWeek.DAL.AppData.Models
 {
     public class Dish : BaseType
     {

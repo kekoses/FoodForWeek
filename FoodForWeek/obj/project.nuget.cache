@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fsY+Z0HEPNUiCvspbsNXwTyG17hRDiMMFMyzdC6SiVTFNCkJ0Z2F0Hcmm7CpDYdhJOgOuLijzsdE+rrAVhKFTw==",
+  "dgSpecHash": "ir436Br47AjDvVrUuXFgQJO/8XUgvZsZAUR2HqKvLjbUsJ1z3gQIRs5pMiL4PlSCXK0R/dZEXs7G2BGd+HRbAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek\\FoodForWeek.csproj",
+  "projectFilePath": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek\\FoodForWeek.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KP\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\KP\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

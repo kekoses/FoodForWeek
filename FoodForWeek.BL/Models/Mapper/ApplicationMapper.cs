@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using FoodForWeek.Library.Models.Mapper.DTO;
-using FoodForWeekApp.DAL.AppData.Models;
-using FoodForWeekApp.DAL.Identity.Models;
+using FoodForWeek.DAL.AppData.Models;
+using FoodForWeek.DAL.Identity.Models;
 
 namespace FoodForWeek.Library.Models.Mapper
 {

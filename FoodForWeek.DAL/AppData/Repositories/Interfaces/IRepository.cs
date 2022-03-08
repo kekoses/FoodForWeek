@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace FoodForWeekApp.DAL.AppData.Repositories.Interfaces
+namespace FoodForWeek.DAL.AppData.Repositories.Interfaces
 {
     public interface IRepository<T>
     {

@@ -13583,6 +13583,23 @@
         }
       },
       {
+        "HashCode": -553467642,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__HeaderViewComponentTagHelper",
+        "AssemblyName": "FoodForWeek",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:header"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__HeaderViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Header"
+        }
+      },
+      {
         "HashCode": -1979964522,
         "Kind": "MVC.ViewComponent",
         "Name": "__Generated__LoginViewComponentTagHelper",
@@ -13612,23 +13629,6 @@
           "Runtime.Name": "ITagHelper",
           "Common.TypeName": "__Generated__LoginViewComponentTagHelper",
           "MVC.ViewComponent.Name": "Login"
-        }
-      },
-      {
-        "HashCode": -553467642,
-        "Kind": "MVC.ViewComponent",
-        "Name": "__Generated__HeaderViewComponentTagHelper",
-        "AssemblyName": "FoodForWeek",
-        "CaseSensitive": false,
-        "TagMatchingRules": [
-          {
-            "TagName": "vc:header"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "ITagHelper",
-          "Common.TypeName": "__Generated__HeaderViewComponentTagHelper",
-          "MVC.ViewComponent.Name": "Header"
         }
       },
       {

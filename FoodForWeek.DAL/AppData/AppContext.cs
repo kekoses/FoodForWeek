@@ -1,8 +1,8 @@
-﻿using FoodForWeekApp.DAL.AppData.EntityBuilders;
-using FoodForWeekApp.DAL.AppData.Models;
+﻿using FoodForWeek.DAL.AppData.EntityBuilders;
+using FoodForWeek.DAL.AppData.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace FoodForWeekApp.DAL
+namespace FoodForWeek.DAL
 {
     public class AppContext : DbContext
     {

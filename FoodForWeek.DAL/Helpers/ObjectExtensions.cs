@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FoodForWeekApp.DAL.Helpers
+namespace FoodForWeek.DAL.Helpers
 {
     public static class ObjectExtensions
     {

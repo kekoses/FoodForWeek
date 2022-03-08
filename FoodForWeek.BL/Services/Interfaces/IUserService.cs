@@ -1,5 +1,5 @@
 ﻿using FoodForWeek.Library.Models.Mapper.DTO;
-using FoodForWeekApp.DAL.Identity.Models;
+using FoodForWeek.DAL.Identity.Models;
 using Microsoft.AspNetCore.Identity;
 using System.Threading.Tasks;
 
