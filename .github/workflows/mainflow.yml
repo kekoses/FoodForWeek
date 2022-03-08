@@ -28,7 +28,10 @@ jobs:
           dotnet-version: 5.0.x
       
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore FoodForWeek
+      
+      - name: Change directory
+        run: cd FoodForWeek
       
       - name: Build FoodForWeek solution
         run: dotnet build FoodForWeek -c Debug
