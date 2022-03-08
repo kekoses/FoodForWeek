@@ -10,9 +10,6 @@ on:
   pull_request:
     branches: [ main, develop ]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -30,11 +27,11 @@ jobs:
         with:
           dotnet-version: 5.0.x
       
-      - name: Build FoodForWeek project
-        run: dotnet build -p FoodForWeek -c Debug
+      - name: Restore dependencies
+        run: dotnet restore
       
-      - name: Build FoodForWeek.Tests project
-        run: dotnet build -p FoodForWeek.Tests -c Debug
+      - name: Build FoodForWeek solution
+        run: dotnet build FoodForWeek -c Debug
       
       - name: Run tests
-        run: dotnet run FoodForWeek.Tests -c Debug
+        run: dotnet run -p FoodForWeek.Tests
