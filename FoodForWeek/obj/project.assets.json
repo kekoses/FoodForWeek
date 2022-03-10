@@ -6785,11 +6785,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek\\FoodForWeek.csproj",
+      "projectUniqueName": "C:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek\\FoodForWeek.csproj",
       "projectName": "FoodForWeek",
-      "projectPath": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek\\FoodForWeek.csproj",
+      "projectPath": "C:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek\\FoodForWeek.csproj",
       "packagesPath": "C:\\Users\\KP\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek\\obj\\",
+      "outputPath": "C:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6810,11 +6810,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.BL\\FoodForWeek.BL.csproj": {
-              "projectPath": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.BL\\FoodForWeek.BL.csproj"
+            "C:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.BL\\FoodForWeek.BL.csproj": {
+              "projectPath": "C:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.BL\\FoodForWeek.BL.csproj"
             },
-            "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.DAL\\FoodForWeek.DAL.csproj": {
-              "projectPath": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.DAL\\FoodForWeek.DAL.csproj"
+            "C:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.DAL\\FoodForWeek.DAL.csproj": {
+              "projectPath": "C:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.DAL\\FoodForWeek.DAL.csproj"
             }
           }
         }

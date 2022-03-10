@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "elGZJQn8lmsG+Ns/jWei4h3GNUs/3JwKKiS1aeyk95jhkd1xs18NtMy97qcxA7KjEylLEzY6LKeRWAoPoF94Pw==",
+  "dgSpecHash": "sv14wk05OicgBKvBaAoOF2wOcG4Go7P+vHsPoInQYdwhgHLFrVYIaVcfSJoqD9rbOhV7i4vvLlHzKkaXodStbA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.BL\\FoodForWeek.BL.csproj",
+  "projectFilePath": "C:\\Users\\KP\\source\\repos\\FoodForWeek\\FoodForWeek.BL\\FoodForWeek.BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KP\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\KP\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
