@@ -25,7 +25,7 @@ namespace FoodForWeek.DAL.AppData.Repositories.Implementations
 
         public async Task<IEnumerable<Menu>> GetMenuListExceptSimillarForUser(int userId)
         {
-            if (_currentSet.Any(m=>m.UserId != userId))
+            if (_currentSet.All(m=>m.UserId != userId))
             {
                 throw new InvalidOperationException($"Requested user:{userId} doesn`t exist!");
             }
