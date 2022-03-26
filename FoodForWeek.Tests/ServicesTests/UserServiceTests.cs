@@ -11,7 +11,6 @@ using FoodForWeek.Library.Services.Implementations;
 using FluentAssertions;
 using FoodForWeek.Tests.ServicesTests.FakeModels;
 using Microsoft.AspNetCore.Identity;
-using FoodForWeek.DAL.AppData.Repositories.Implementations;
 
 namespace FoofForWeek.Tests
 {
@@ -30,31 +29,43 @@ namespace FoofForWeek.Tests
             SetupMapperMock();
         }
         [Fact]
-        public async Task TestAuthenticateNewUserAsync()
+        public async Task TestCheckAuthForExistingUser()
         {
-             IUserService service=new Mock<UserService>((UserRepository)_fakeUserRepository,
-                                                        _mapperMock.Object,
-                                                        (UserManager<AppUser>)_fakeUserManager,
-                                                        (SignInManager<AppUser>)_fakeSignManager).Object;
-            var expectedUser=new AppUser() {Email="firstemail@mail.com",NormalizedEmail="firstemail@mail.com",Login="firstemail@mail.com"};
-            var registedDTO=new RegisterUserDTO(){Email="firstemail@mail.com", Password="qwesdasdas"};
-            var actualUSer=await service.AuthenticateNewUserAsync(registedDTO);
-            expectedUser.Should().Be(actualUSer);
+            IUserService service = new UserService(_fakeUserRepository,
+                                                       _mapperMock.Object,
+                                                       _fakeSignManager,
+                                                       _fakeUserManager);
+            var expectedResult = SignInResult.Success;
+            var loginDTO=new LoginUserDTO(){Email="firstemail@mail.com", Password="qwesdasdas"};
+            var actualResult=await service.CheckAuthForLoggingUserAsync(loginDTO);
+            expectedResult.Should().Be(actualResult);
         }
         private void SetupMapperMock()
         {
             _mapperMock.Setup(u=>u.Map<RegisterUserDTO,AppUser>(It.IsNotNull<RegisterUserDTO>()))
                        .Returns(new AppUser()
                         {
-                            Email="EXISTEDEMAIL@.RU",
-                            Login="kekoses",
-                            NormalizedEmail="EXISTEDEMAIL@.RU"
-                        });
+                           Email = "firstemail@mail.com",
+                           NormalizedEmail = "firstemail@mail.com",
+                           Login = "firstemail@mail.com"
+                       });
             _mapperMock.Setup(u=>u.Map<RegisterUserDTO,User>(It.IsNotNull<RegisterUserDTO>()))
                        .Returns(new User()
                        {
-                            Email="EXISTEDEMAIL@.RU"
+                            Email= "firstemail@mail.com"
                        });
+            _mapperMock.Setup(u => u.Map<LoginUserDTO, AppUser>(It.IsNotNull<LoginUserDTO>()))
+                      .Returns(new AppUser()
+                      {
+                          Email = "firstemail@mail.com",
+                          NormalizedEmail = "firstemail@mail.com",
+                          Login = "firstemail@mail.com"
+                      });
+            _mapperMock.Setup(u => u.Map<LoginUserDTO, User>(It.IsNotNull<LoginUserDTO>()))
+                      .Returns(new User()
+                      {
+                          Email = "firstemail@mail.com"
+                      });
             _mapperMock.Setup(u=>u.Map<RegisterUserDTO,AppUser>(It.Is<RegisterUserDTO>(dto=>dto==null)))
                         .Throws<InvalidCastException>();
             _mapperMock.Setup(u=>u.Map<RegisterUserDTO,User>(It.Is<RegisterUserDTO>(dto=>dto==null)))

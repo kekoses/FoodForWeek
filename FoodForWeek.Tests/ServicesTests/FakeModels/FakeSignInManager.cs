@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using FoodForWeek.DAL.Identity.Models;
 using Microsoft.AspNetCore.Authentication;
@@ -25,7 +26,7 @@ namespace FoodForWeek.Tests.ServicesTests.FakeModels
                   new Mock<IUserConfirmation<AppUser>>().Object)
         { 
              _fakeUserList=new List<AppUser>()
-            {
+            {                     
                 new AppUser() {Email="firstemail@mail.com",NormalizedEmail="firstemail@mail.com",Login="firstemail@mail.com" },
                 new AppUser() {Email="secondemail@mail.com",NormalizedEmail="secondemail@mail.com",Login="secondemail@mail.com" },
                 new AppUser() {Email="thirdemail@mail.com",NormalizedEmail="thirdemail@mail.com",Login="thirdemail@mail.com" }  
@@ -38,7 +39,7 @@ namespace FoodForWeek.Tests.ServicesTests.FakeModels
             {
                 return Task.FromResult(SignInResult.Failed);
             }
-            if(_fakeUserList.Contains(user))
+            if (_fakeUserList.Any(u => u.Email == user.Email))
             {
                 return Task.FromResult(SignInResult.Success);
             }

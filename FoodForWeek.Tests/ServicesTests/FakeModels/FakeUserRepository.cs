@@ -22,7 +22,7 @@ namespace FoodForWeek.Tests.ServicesTests.FakeModels
             };
         }
 
-        public new Task<bool> ExistUserByEmailAsync(string email)
+        public override Task<bool> ExistUserByEmailAsync(string email)
         {
             if(!string.IsNullOrEmpty(email))
             {

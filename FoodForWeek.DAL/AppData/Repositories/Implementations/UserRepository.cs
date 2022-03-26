@@ -11,6 +11,6 @@ namespace FoodForWeek.DAL.AppData.Repositories.Implementations
         {
         }
 
-        public async Task<bool> ExistUserByEmailAsync(string email) => await _currentSet.AsNoTracking().AnyAsync(u => u.Email == email);
+        public virtual async Task<bool> ExistUserByEmailAsync(string email) => await _currentSet.AsNoTracking().AnyAsync(u => u.Email == email);
     }
 }

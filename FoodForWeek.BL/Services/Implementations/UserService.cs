@@ -4,8 +4,6 @@ using AutoMapper;
 using FoodForWeek.Library.Models.Mapper.DTO;
 using FoodForWeek.Library.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.EntityFrameworkCore;
 using FoodForWeek.DAL.AppData.Repositories.Interfaces;
 using FoodForWeek.DAL.Identity.Models;
 using FoodForWeek.Library.AdditionalHelpers.Extensions;
