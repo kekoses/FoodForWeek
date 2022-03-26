@@ -12,3 +12,4 @@ C:\Users\KP\source\repos\FoodForWeek\FoodForWeek.BL\bin\Debug\net5.0\FoodForWeek
 C:\Users\KP\source\repos\FoodForWeek\FoodForWeek.BL\obj\Debug\net5.0\FoodForWeek.BL.dll
 C:\Users\KP\source\repos\FoodForWeek\FoodForWeek.BL\obj\Debug\net5.0\ref\FoodForWeek.BL.dll
 C:\Users\KP\source\repos\FoodForWeek\FoodForWeek.BL\obj\Debug\net5.0\FoodForWeek.BL.pdb
+C:\Users\KP\source\repos\FoodForWeek\FoodForWeek.BL\obj\Debug\net5.0\FoodForWeek.BL.csproj.CopyComplete

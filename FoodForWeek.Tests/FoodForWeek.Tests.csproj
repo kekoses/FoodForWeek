@@ -30,4 +30,8 @@
     <ProjectReference Include="..\FoodForWeek\FoodForWeek.csproj" />
     <ProjectReference Include="..\FoodForWeek.DAL\FoodForWeek.DAL.csproj" />
     </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ServicesTests\" />
+  </ItemGroup>
 </Project>
