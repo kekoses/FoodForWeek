@@ -51,7 +51,7 @@ namespace FoodForWeek
                 options.Lockout.AllowedForNewUsers = false;
             }).AddEntityFrameworkStores<AppIdentityContext>()
               .AddDefaultTokenProviders();
-
+            
             services.AddHsts(options=>
             {
                 options.Preload=false;

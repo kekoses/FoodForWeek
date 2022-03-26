@@ -19,19 +19,15 @@ namespace FoodForWeek.Library.Services.Implementations
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signManager;
         private readonly IMapper _mapper;
-        private readonly IServiceProvider _service;
-        private readonly IServiceScopeFactory _scope;
         public UserService(IUserRepository userRepository,
                            IMapper mapper,
                            SignInManager<AppUser> signManager,
-                           UserManager<AppUser> userManager, IServiceProvider service, IServiceScopeFactory scope)
+                           UserManager<AppUser> userManager)
         {
             _userRepository = userRepository;
             _mapper = mapper;
             _signManager = signManager;
             _userManager = userManager;
-            _service = service;
-            _scope = scope;
         }
 
         public async Task<SignInResult> AuthorizeNewUserAsync(AppUser newUser, string password)

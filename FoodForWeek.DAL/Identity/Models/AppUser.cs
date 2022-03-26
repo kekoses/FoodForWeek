@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace FoodForWeek.DAL.Identity.Models
 {
-    public class AppUser: IdentityUser<int>
+    public class AppUser : IdentityUser<int>
     {
         [Required]
         public string FirstName { get; set; }
